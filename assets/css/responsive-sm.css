@@ -1,0 +1,112 @@
+@media screen and (min-width:767px) and (max-width:990px) {
+
+
+    .navbar-default .navbar-nav .btn{
+        display: none;
+    }
+
+    .slide .txt h1{
+        font-size: 18px;
+    }
+
+    .slide .txt p{
+        font-size: 15px;
+    }
+
+    .what .txt h1{
+        font-size: 18px;
+    }
+
+    .what .txt h2{
+        font-size: 16px;
+    }
+
+    .what .txt p{
+        font-size: 16px;
+    }
+
+    .what .txt .advantge div p{
+        font-size: 16px;
+    }
+
+    .tab h1{
+        font-size: 18px;
+    }
+
+    .tab .nav-tabs a{
+        font-size: 16px;
+    }
+
+    .tab .tab-content .tab-pane h1{
+        font-size: 18px;
+    }
+
+    .tab .tab-content .tab-pane h2{
+        padding-top: 16px;
+    }
+
+    .tab .tab-content .tab-pane p{
+        font-size: 16px;
+    }
+
+    .parallax .plus div h1{
+        font-size: 18px;
+    }
+
+    .why h1{
+        font-size: 18px;
+    }
+
+    .why h3{
+        font-size: 16px;
+    }
+
+    .why p{
+        font-size: 16px;
+    }
+
+    .iran h2{
+        font-size: 16px;
+    }
+
+    .iran .towns{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .iran .towns div{
+        width: 12% ;
+        margin-top: 20px;
+    }
+
+    .new h1{
+        font-size: 18px;
+    }
+
+    footer a img{
+        width: 120px;
+        margin-bottom: 30px;
+    }
+
+    footer p{
+        font-size: 16px;
+    }
+
+    footer li a{
+        font-size: 16px;
+    }
+
+    footer .brand h1 div{
+        height: 14px;
+    }
+    
+    footer .brand p{
+        font-size: 16px;
+    }
+
+    footer .brand strong{
+        font-size: 16px;
+    }
+
+
+}

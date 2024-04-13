@@ -1,0 +1,210 @@
+
+@color1: #ff5b35;
+@color2: black;
+@color3: #545454; 
+@color4: white;
+@color5: #a5a5a5;
+@color6: #0065dc;
+@color7: #f39c12;
+@color8: #ff5722;
+@color9: #333;
+@color10: rgba(0,101,220,.2);
+@color11:#d7d7d7;
+@color12: #c4c4c4;
+
+
+.navbar-default {
+    &:hover .navbar-brand{
+        color: @color8;
+        transition: 300ms;
+    }
+    .navbar-brand{
+        color: @color2;
+        .glyphicon-align-right{
+            color: @color8;
+        }
+    }
+}
+
+.navbar-header:hover .glyphicon-align-right{
+    color: @color2;
+    transition: 300ms;
+}
+
+.navbar-default .navbar-toggle {
+    &:hover{
+        background-color: transparent;
+    }
+    &:hover .icon-bar{
+        background-color: @color3;
+    }
+    .icon-bar{
+        background-color: @color2;   
+    }
+}
+ 
+.navbar-default .navbar-nav .btn{
+    color: @color8;
+}
+
+.navbar-default .navbar-nav .btn-warning a{
+    color: @color4;    
+}
+
+.navbar-default .navbar-nav .btn:hover a{
+    color: @color4;
+}
+
+.navbar-default .navbar-nav li{    
+    &:hover a{
+        color: @color8;
+        transition: 400ms;
+    }
+    &:hover hr{
+        width: 110%;
+        background-color: @color8;
+        transition: 400ms;
+    }
+}
+
+.slide .txt h1{
+    color: @color4;
+}
+
+.slide .txt p{
+    color: @color4;
+}
+
+.slide .link .btn-default{
+    &:hover{
+        background: @color8;
+        color: @color4;
+        border-color:@color8;
+        text-shadow: 0 0 0 @color4;
+        transition: all 400ms;
+    }
+}
+
+.what {
+    .txt{
+        h1{
+            color: @color2;
+        }
+        h2{
+            color: @color5;
+        }
+        p{
+            color: @color9;
+        }
+        .advantge div p{            
+            color: @color9;
+        }
+    }
+}
+
+.tab{    
+    background-color: @color4;
+    h1{
+        color: @color9;        
+    }    
+}
+
+.tab .nav-tabs a{
+    color: @color3;
+}
+
+.tab .tab-content .tab-pane{
+    h1{
+        color: @color9;
+    }
+    h2{
+        color: @color5;
+    }
+    p{
+        color: @color9;
+    }
+}
+
+.tab .tab-content .tab-pane .link a{
+    color: @color5;
+    background-color: @color11;
+    span{
+        color: @color5;
+    }
+}
+
+.parallax .plus div h1{
+    color: @color4;
+}
+
+.why{
+    h1{
+        color: @color9;
+    }
+    h3{
+        color: @color5;
+    }
+    p{
+        color: @color9;
+    }
+}
+
+.why p span a{
+    color: @color6;
+}
+
+.why .link a{
+    color: @color4;
+    background-color: @color6;  
+    &:hover{
+        background-color: @color10;
+        color: @color6;
+        transition: 400ms;
+    }  
+}
+
+.iran h2{
+    color: @color2;
+}
+
+.new{
+    background-color: @color1;
+    h1{
+        color: @color4;
+    }
+    a{
+        color: @color1;
+        &:hover{
+            color: @color1;  
+        }
+    }
+}
+
+footer{
+    background-color: @color2;
+    p{
+        color: @color4;
+    }
+    li a{
+        color: @color12;
+        &:hover{
+            color: @color1;
+        }
+    }
+}
+
+footer .brand{
+    color: @color4;
+    strong{
+        color: @color3;
+    }
+    .social a{
+        color: @color5;
+        &:hover{
+            color: @color7;
+        }
+    }
+}
+
+
+    

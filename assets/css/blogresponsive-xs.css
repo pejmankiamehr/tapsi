@@ -1,0 +1,51 @@
+@media screen and (max-width:767px) {
+
+    header .logo{
+        float: none;
+        margin: 0 auto;
+        display: block;
+    }
+
+    header .search{
+        width: 200px;
+        float: none;
+        margin: 0 auto;
+        display: block;
+    }
+
+    header .search .input-group{
+        display: inline-block;
+        padding-bottom: 10px;
+    }
+
+    header .search .social{
+        width: 100px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    header .search .social i{
+        text-align: center;
+    }
+
+    .slide .carousel-caption a{
+        font-size: 14px;
+        right: 0;
+    }
+
+    .article .rows .image img{
+        width: 100%;
+    }
+
+
+  
+    
+
+
+    
+
+
+
+
+
+}

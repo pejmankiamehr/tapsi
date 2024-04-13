@@ -1,0 +1,218 @@
+@media screen and (max-width:767px) {
+
+
+    .navbar-default .navbar-nav .btn{
+        display: none;
+    }
+
+    .navbar-default .navbar-nav li{
+        background-color: white;
+    }
+
+    .navbar-default .navbar-nav li a:hover hr{
+        width: 100%;
+    }
+
+    .slide{
+        height: 315px;
+    }
+
+    .slide .txt h1{
+        font-size: 22px;
+        padding-top: 0;
+    }
+
+    .slide .txt p{
+        font-size: 16px;
+    }
+
+    .slide .link .btn-default{
+        width: 200px;
+        padding: 10px 5px;
+        font-size: 14px;
+    }
+
+    .what .car{
+        display: none;
+    }
+
+    .what .txt h1{
+        font-size: 24px;
+        text-align: center;
+        padding-top: 0;
+    }
+
+    .what .txt h2{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .what .txt > p{
+        font-size: 14px;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .what .txt .advantge{
+        margin-top: 0;
+        justify-content: space-evenly;
+    }
+
+    .what .txt .advantge div p{
+        font-size: 14px !important;
+    }
+
+    .tab h1{
+        font-size: 22px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .tab .nav-tabs{
+        margin: 50px auto 0 auto;
+        border-bottom: 1px solid transparent;
+    }
+
+    .tab .nav-tabs a{
+        font-size: 14px;
+    }
+
+    .tab .nav-tabs a img{
+        max-width: 60px;
+    }
+
+    .tab .tab-content .tab-pane h1{
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .tab .tab-content .tab-pane h2{
+        padding-top: 16px;
+        text-align: center;
+    }
+    
+    .tab .tab-content .tab-pane p{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .tab .tab-content .tab-pane .link{
+        width: 350px;
+        margin: 0 auto 40px auto;
+    }
+
+    .tab .tab-content .tab-pane .link a{
+        font-size: 14px;
+        padding: 5px 15px 5px 15px;   
+        margin-right: 10px;     
+    }
+
+    .tab .tab-content .tab-pane .link a span{
+        font-size: 16px;
+    }
+
+    .parallax .plus div h1{
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .why h1{
+        margin-top: -100px;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .why h3{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .why p{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .why .link{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .why .link a{
+        font-size: 14px;
+    }
+
+    .why .link a:first-child{
+        float: right;
+        margin-right: 10%;
+    }
+
+    .why .link a:last-child{
+        float: left;
+        margin-left: 10%;
+    }
+
+    .iran{
+        clear: both;
+        display: none;
+    }
+
+    .new{
+        display: none;        
+    }
+
+    footer{
+        margin-top: -50px;
+    }
+
+    footer a img{
+        width: 120px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    footer .container > div:nth-child(4){
+        display: none;
+    }
+
+    footer .container > div:nth-child(5){
+        display: none;
+    }
+
+    footer .container > div:nth-child(6){
+        display: none;
+    }
+
+    footer .brand h1{
+        text-align: center;
+    }
+
+    footer .brand p{
+        font-size: 16px;
+        text-align: center;
+        display: none;
+    }
+
+    footer .brand strong{
+        font-size: 14px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    footer .brand .social{
+        width: 50%;
+        margin: 0 auto;
+        justify-content: space-evenly;
+    }
+
+
+
+    
+
+
+
+
+
+
+
+
+}
